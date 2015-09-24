@@ -35,7 +35,6 @@ Some useful tips to help you get started:
 *Optimized image sizes
 *Deleted web Fonts and minified the page scripts
 *JS running Async and inlined critical CS
-*minified scripts
 *PageSpeed 95 mobile - 98 Desktop
 
 ####Part 2: Optimize Frames per Second in pizza.html
