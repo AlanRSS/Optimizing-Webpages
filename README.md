@@ -29,8 +29,11 @@ Some useful tips to help you get started:
 1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! Optional: [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
 
 Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
+Steps:
 Optimized image size on pizzeria jpg
-updated font style throwing load error
+Deleted web Fonts and minified the page scripts
+JS running Async and inlined critical JS
+PageSpeed 95 mobile - 98 Desktop
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
