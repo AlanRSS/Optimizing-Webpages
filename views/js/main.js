@@ -419,7 +419,7 @@ var resizePizzas = function(size) {
 	}
 
 	changeSliderLabel(size);
-// Returns the size difference to change a pizza element from one size to another. Called by changePizzaSlices(size).
+// Returns the size difference to change a pizza element from one size to another have been updated to fix FSL by removing reading properties outside the for loop and simplified the method calculations.
 	function changePizzaSizes(size) {
 		switch(size) {
 			case "1":
@@ -480,7 +480,7 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
 // The following code for sliding background pizzas was pulled from Ilya's demo found at:
 // https://www.igvita.com/slides/2012/devtools-tips-and-tricks/jank-demo.html
 
-// Moves the sliding background pizzas based on scroll position
+// Moves the sliding background pizzas based on scroll position, was updated to run at 60FPS reads the scroll top property from outisde of the loop now and have added will-change to mover so the browser is ready to animate it smoothly
 function updatePositions() {
 	frame++;
 	window.performance.mark("mark_start_frame");
